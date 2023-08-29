@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'dubai medium';
+    margin: 0;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color:aliceblue;
+    
+}
+hr{
+    opacity: 0.2;
+    outline: none;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+/*slider destaque*/
+.cardm{
+    position:relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.titulo-cardm{
+    padding: 0 10vw;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+.cardm-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+}
+.cardm-container::-webkit-scrollbar{
+    display: none;
+}
+.cardm-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.cardm-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ffff;
+}
+.poster-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-info{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.cardm-nome {
+    text-decoration: none;
+    color: #0d0101;
+}
+.nota{
+    font-size: 20px;
+    font-weight: 900;
+}
+.pre-btn, .nxt-btn{
+border: none;
+width: 10vw;
+height: 100%;
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(90deg, rgba(255, 251, 251, 0) 0%, #ffffff 230%);
+cursor: pointer;
+z-index: 9;
+}
+.pre-btn img, .nxt-btn img{
+    width: 70px;
+    opacity: 0.4;
+}
+#iframe{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+.nxt-btn{
+    right: 0;
+}
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 0.9;
+}
+.imagemdestaque{
+    width: 30%;
+    height: 30%;
+    padding-right: 20px;
+}
+h2{
+    padding-bottom: 2px;
+    color: #000000;
+}
+.materia{
+    font-size: 13px;
+}
