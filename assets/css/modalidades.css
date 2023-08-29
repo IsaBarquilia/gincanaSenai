@@ -9,7 +9,8 @@ body{
     align-items: center;
     background-color: rgb(255, 255, 255);
     color:aliceblue;
-    
+    height: 100vh;
+   
 }
 hr{
     opacity: 0.2;
@@ -97,10 +98,13 @@ z-index: 9;
     width: 70px;
     opacity: 0.4;
 }
-#iframe{
+#footer{
     bottom: 0;
-    position: fixed;
     width: 100%;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+
 }
 .pre-btn{
     left: 0;
@@ -123,4 +127,29 @@ h2{
 }
 .materia{
     font-size: 13px;
+
 }
+#linktree{
+    height: 40px;
+    width: 40px;
+  }
+  #logo{
+    width: 80px;
+    height: 60px;
+  }
+  footer {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0;
+        border: 0;
+        margin-top: 30px;
+  }
+  .p1 {
+    font-size: 15px;
+    font-family: 'dubai';
+    color:rgb(0, 0, 0);
+    align-items: center;
+  }
+  ul{
+  padding: 0;
+  }
