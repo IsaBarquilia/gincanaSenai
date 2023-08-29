@@ -3,7 +3,7 @@ body{
   font-family:'dubai medium';
 }
 header{
-  background-color: #03001C;
+  background-color: #ffffff;
   color: #fff;
   padding: 20px 0;
   height: 100%;
@@ -19,8 +19,8 @@ header{
   align-items: center;
 }
 #logo{
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 80px;
 }
 nav ul{
   list-style: none;
@@ -34,16 +34,16 @@ nav li{
   margin: 0 10px;
 }
 nav a{
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
 }
 nav a:hover{
-  color: #B6EADA;
-  transition: ease-in 0.2s;
-  background-color: #1d1a3e;
-  border-radius: 40px;
+  color: #000705;
+  transition: ease-in 0.5s;
+  background-color: #ee0505;
+  border-radius: 20px;
 }
 nav a:active{
   color: #B6EADA;
