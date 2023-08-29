@@ -1,0 +1,31 @@
+body {
+    margin: 0%;
+    bottom: 0%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+   margin: 0;
+  }
+  #linktree{
+    height: 40px;
+    width: 40px;
+  }
+  #logo{
+    width: 80px;
+    height: 60px;
+  }
+  footer {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0;
+        border: 0;
+        margin-top: 30px;
+  }
+  .p1 {
+    font-size: 15px;
+    font-family: 'dubai';
+    color:rgb(0, 0, 0);
+    align-items: center;
+  }
+  ul{
+  padding: 0;
+  }
