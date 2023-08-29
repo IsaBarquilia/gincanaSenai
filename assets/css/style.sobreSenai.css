@@ -1,0 +1,80 @@
+/* Apply general styling to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Style the container */
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* Style the heading */
+h1 {
+    color: #ff0000;
+    text-align: center;
+}
+
+/* Style the section */
+section {
+    margin-top: 20px;
+
+}
+
+/* Style the comment section */
+.comentario {
+    display: flex;
+    align-items: center;
+
+}
+
+/* Style the profile picture */
+#pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Style the content inside the comment section */
+.comentario div {
+    flex: 1;
+}
+
+/* Style the subheading */
+h3 {
+    color: #000000;
+}
+
+/* Style the course descriptions */
+p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Apply specific styles to different course paragraphs */
+.cursoGratuito,
+.aprendizSenai,
+.cursoTecnico {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-color: #ff0000;
+}
+
+/* Style the emphasized text within paragraphs */
+br {
+    display: block;
+    margin: 5px 0;
+}
+
+
+#frenteSenai{
+    width: 800px;
+}
