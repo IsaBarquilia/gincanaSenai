@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family:'dubai medium';
+}
+header{
+  background-color: #03001C;
+  color: #fff;
+  padding: 20px 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  width: 64px;
+  height: 64px;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center
+  
+}
+nav li{
+  margin: 0 10px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+nav a:hover{
+  color: #B6EADA;
+  transition: ease-in 0.2s;
+  background-color: #1d1a3e;
+  border-radius: 40px;
+}
+nav a:active{
+  color: #B6EADA;
+}
+@media (max-width:600px){
+  #logo{
+    width: 55px;
+    height: 55px;
+    margin-left: 170px;
+    padding-bottom: 25px;
+  }
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display:contents;
+    justify-content:none;
+    align-items:center;
+  }
+  li{
+    font-size: 12px;
+    text-align:center;
+  }
+  nav li{
+    margin: 0;
+  }
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 35px;
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+  }
+}
