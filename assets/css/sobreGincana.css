@@ -6,7 +6,10 @@ body {
 background-color: black;
 }
 
-/* Style the container */
+#logo{
+    width: 80%;
+    margin-left: 10%;
+}
 #container {
     max-width: 800px;
     margin: 0 auto;
@@ -24,13 +27,6 @@ h1 {
 /* Style the section */
 section {
     margin-top: 20px;
-
-}
-
-/* Style the comment section */
-.comentario {
-    display: flex;
-    align-items: center;
 
 }
 
