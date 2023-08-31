@@ -19,21 +19,19 @@ body{
     margin-left: 130px;
  
 }
-/*carrossel fotos*/
+
 .galery .fotos {
     width: 100%;
     animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
-/*carrossel fotos*/
+
 .galery .fotos img {
     width: 100%;
     border-radius: 20px;
    
 }
-
-
 #filmeinfo{
     color:rgb(255, 255, 255);
     justify-content: center;
