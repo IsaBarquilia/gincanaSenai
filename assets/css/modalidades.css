@@ -67,7 +67,7 @@ a{
     
 }
 .cardm-image:hover{
-    transform: scale(1.10);
+    transform: scale(1.05);
     box-shadow:1px 1px 15px rgba(229, 222, 222, 0.8);
 }
 .poster-thumb{
