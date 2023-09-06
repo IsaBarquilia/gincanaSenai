@@ -48,55 +48,26 @@ li:hover{
     display: flex;
     width: auto;
 }
-#generos ul{
- margin-left: 250px;
+button {
+    background-color: #b31e03;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.7s ease;
+    
 }
-#generos{
-    text-decoration: none;
-    color:#000000;
+/* Efeito hover para destacar o botão quando o mouse passar por cima */
+button:hover {
+    background-color: #e72f0e;
+    transform: rotate(30deg);
 }
-.ondeass {
-    border: 2px solid #060606;
-    border-radius: 100%;
-    width: 45px;
-    height: 45px;
-}
-li {
-    margin-left: 5px;
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 30px;
-}
-#where{
-    text-align: center;
-    justify-content: center;
-}
-#channels{
-    justify-content: center;
-    padding: 0;
-}
-.comentario{
-    display: flex;
-    margin: 10px;
-}
-.nomecomentario{
-    margin-top: 0px;
-    margin-left: 10px;
-}
-#pfp{
-    width: 5%;
-    height: 5%;
-    border-radius: 50px;
-}
-hr{
-    opacity: 0.2;
+
+
+/* Efeito de foco para acessibilidade */
+button:focus {
     outline: none;
-    width: 1000px;
-}
-#titulo{
-    font-size: 400%;
-}
-h1{
-    padding-left: 30px;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 1);
 }

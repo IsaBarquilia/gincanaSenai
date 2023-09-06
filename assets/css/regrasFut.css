@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+h2 {
+    font-size: 25px;
+    color:#ff0000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #630b0b;
+    box-shadow: 0px 0px 10px rgba(158, 158, 158, 0.1);
+    color:#fff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+ol {
+    font-size: 18px;
+    line-height: 1.6;
+}
+button {
+    background-color: #b31e03;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.7s ease;
+    
+}
+/* Efeito hover para destacar o botão quando o mouse passar por cima */
+button:hover {
+    background-color: #e72f0e;
+    transform: rotate(30deg);
+}
+
+
+/* Efeito de foco para acessibilidade */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 1);
+}
+

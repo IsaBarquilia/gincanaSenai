@@ -48,3 +48,26 @@ li:hover{
     display: flex;
     width: auto;
 }
+button {
+    background-color: #b31e03;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.7s ease;
+    
+}
+/* Efeito hover para destacar o botão quando o mouse passar por cima */
+button:hover {
+    background-color: #e72f0e;
+    transform: rotate(30deg);
+}
+
+
+/* Efeito de foco para acessibilidade */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 1);
+}
