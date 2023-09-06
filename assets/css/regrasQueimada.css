@@ -17,6 +17,8 @@ h2 {
     background-color: #630b0b;
     box-shadow: 0px 0px 10px rgba(158, 158, 158, 0.1);
     color:#fff;
+    border-radius: 8px;
+
 }
 
 p {
